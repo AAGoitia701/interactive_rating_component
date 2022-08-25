@@ -12,13 +12,14 @@ let number_rating= document.querySelector('#number');
 
 thankYou_container.style.display= "none";
 
-rating1.addEventListener('click', saveRating1);
-rating2.addEventListener('click', saveRating2)
-rating3.addEventListener('click', saveRating3)
-rating4.addEventListener('click', saveRating4)
-rating5.addEventListener('click', saveRating5)
+let click1= rating1.addEventListener('click', saveRating1);
+let click2= rating2.addEventListener('click', saveRating2)
+let click3= rating3.addEventListener('click', saveRating3)
+let click4= rating4.addEventListener('click', saveRating4)
+let click5= rating5.addEventListener('click', saveRating5)
 
-submit_button.addEventListener('click', showThankYouCard);
+let clickOnSubmit= submit_button.addEventListener('click', showThankYouCard);
+
 
 function showThankYouCard(){
     thankYou_container.style.display= "flex";
