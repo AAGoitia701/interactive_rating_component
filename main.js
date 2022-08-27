@@ -61,8 +61,9 @@ function saveRatings(rating,number){
 
 rating1.onclick=function(){
     timesClicked++;
-
+    
     createThankYouBlock();
+    createThankYouBlock= function(){};
 
     if(timesClicked%2==0){
         basicColor(rating1);
@@ -75,6 +76,7 @@ rating2.onclick=function(){
     timesClicked++;
 
     createThankYouBlock();
+    createThankYouBlock= function(){};
 
     if(timesClicked%2==0){
         basicColor(rating2);
@@ -87,6 +89,7 @@ rating3.onclick=function(){
     timesClicked++;
 
     createThankYouBlock();
+    createThankYouBlock= function(){};
 
     if(timesClicked%2==0){
         basicColor(rating3);
@@ -99,6 +102,7 @@ rating4.onclick=function(){
     timesClicked++;
 
     createThankYouBlock();
+    createThankYouBlock= function(){};
 
     if(timesClicked%2==0){
         basicColor(rating4);
@@ -111,6 +115,7 @@ rating5.onclick=function(){
     timesClicked++;
 
     createThankYouBlock();
+    createThankYouBlock= function(){};
 
     if(timesClicked%2==0){
         basicColor(rating5);
